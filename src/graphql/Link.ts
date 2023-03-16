@@ -10,7 +10,6 @@ import {
   objectType,
   stringArg,
 } from "nexus";
-import { NexusGenObjects } from "../../nexus-typegen";
 
 export const Link = objectType({
   name: "Link",
