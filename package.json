@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "ts-node --transpile-only src/schema.ts",
-    "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts"
+    "dev": "ts-node-dev --transpile-only --no-notify --exit-child src/index.ts",
+    "prettify": "prettier -w ."
   },
   "keywords": [],
   "author": "",
